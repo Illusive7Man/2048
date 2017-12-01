@@ -1,5 +1,5 @@
 # 2048
-AI igrac za igricu 2048
+AI player of the game "2048"
 
 
 GameManager_3.py should be run without arguments in console, for it to run. It will automatically display bot's moves along with the computer moves (random 2s or 4s). 
