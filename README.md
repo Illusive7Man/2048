@@ -2,8 +2,9 @@
 AI igrac za igricu 2048
 
 
-GameManager_3.py služi za pokretanje. U konzoli će se prikazivati stanje table poslije svakog poteza.
-Svi fajlovi, sem PlayerAI_3.py su bili već dostupni. On je zadužen za poteze igrača. Preglednost koda je dosta loša :/
-Korišćen je alpha-beta pruning.
+GameManager_3.py should be run without arguments in console, for it to run. It will automatically display bot's moves along with the computer moves (random 2s or 4s). 
+It uses alpha beta pruning with iterative deepening. 
+It was averaging around 1024 when I was testing it. 
 
-Kada sam ga ja testirao prosjek bodova je bio iznad 1024. Od tada je mijenjan (na gore...). Performansa zavisi od kompjuterske snage.
+All files besides PlayerAI_3.py were available beforehand.
+
